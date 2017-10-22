@@ -38,11 +38,15 @@ KeyboardInputManager.prototype.listen = function () {
     39: 2, // Right
     37: 3, // Left
     87: 0, // W
-    69: 1, // E
+    188: 0, // ,
+    190: 1, // .
     65: 2, // A
     68: 3, // D
+    69: 3, // E
     90: 4, // Z
+    59: 4, // ;
     88: 5  // X
+    81: 5 // Q
   };
 
   document.addEventListener("keydown", function (event) {
